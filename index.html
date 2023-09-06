@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html leng="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Prakash Thakur Portfolio</title>
+    <link rel="stylesheet" href="my_style.css">
+    <script src="https://kit.fontawesome.com/cac53fa0aa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>-->
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Software Developer</p>
+                <h1>Hi,I'm<span> Prakash Thakur</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!--------about------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="image" style="height:100%;">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a student at Gyan Ganga College Of Technology, specializing in Computer Science. My passion lies in using technology to solve complex problems. I possess strong skills in communication, programming, and computer science. I am an avid problem solver who enjoys working on diverse projects to gain knowledge and experience. I am 
+                        an explorer at heart and thrive in flexible environments where I can continually learn and grow.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C plus plus</span><br>Programming in C++ language</li>
+                            <li><span>DSA</span><br>Solved 500+ problems in GFG and Leetcode</li>
+                            <li><span>Competitive Programming</span><br>Solving the problems in different platforms</li>
+                            <li><span>Python</span><br>Python Programming Language</li>
+                            <li><span>Web Development</span><br>Frontend Web development</li>
+                            <li><span>Core Subjects</span><br>OOPS,CN,OS,SQL and exploring ML</li>
+                            <li><span>DBMS</span><br>Database Management System</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sept 2022 - Present</span><br>Team Lead at NSCC GGCT chapter</li>
+                            <li><span>June 2023 - August 2023</span><br>Martian Summer Intern at Persistent Systems</li>
+                            <li><span>Dec 2022 - Jan 2023</span><br>Web development intern at NullClass</li>
+                            <li><span>Oct 2022 - Nov 2022</span><br>Web development intern at LetsGrowMore</li>
+                            <li><span>Jul 2021 - March 2022</span><br>Social Media Marketing intern at Techfest,IIT Bombay</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - Present</span><br>B.Tech CSE from GGCT,Jabalpur</li>
+                            <li><span>2018 - 2019</span><br>12th from GHS School,Borikalan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------services------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Developer</h2>
+                    <p>I'm an aspiring software developer with practical internship experience,
+                         eager to contribute my skills and knowledge to create innovative solutions and projects.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Development</h2>
+                    <p>I am providing Frontend web development services to both companies and society, helping them harness the power of 
+                        the internet to achieve their goals and connect with their audience effectively.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-people-group"></i>
+                    <h2>Team Leading</h2>
+                    <p>Leading the NSCC GGCT Team: I have had the privilege of leading a dynamic team of more than 20 members in our campus NSCC GGCT chapter. 
+                        During my tenure, we have successfully organized numerous competitions</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-----------------------portfolio------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="work">
+                    <div class="layer">
+                        <h3> Kishan Maitri</h3>
+                        <p>This platform empowers farmers to sell their agricultural products directly to consumers, eliminating the need for costly intermediaries. Farmers can now receive fair compensation for their hard work, ensuring they get the full value of their products without compromising on quality. Additionally, the platform provides a
+                             means for farmers to sell dairy products directly from their homes, further enhancing their economic opportunities.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="work">
+                    <div class="layer">
+                        <h3> Virtual Tourism</h3>
+                        <p>Our platform is designed to provide an immersive virtual tourism experience for individuals facing physical disabilities, senior citizens, those with busy schedules, and students unable to leave their homes due to various limitations. It opens up the opportunity for them to explore tourist destinations across
+                             India and around the world from the comfort of their homes.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="work">
+                    <div class="layer">
+                        <h3>Amazon Frontend Clone</h3>
+                        <p>I created an Amazon Frontend Clone project, focusing on replicating Amazon's user experience. This project showcases my skills in web development, offering dynamic product listings, efficient search, and a user-friendly shopping process. It's fully responsive for seamless browsing on a
+                            ny device, reflecting my commitment to user-centric design and exceptional web applications.
+
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-----------contact------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>prakash.cse20@ggct.co.in</p>
+                    <p><i class="fa-solid fa-phone"></i>9752404175</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/prakash-thakur-772872215/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+
+
+                    <a href="prakashimanrajport.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Made by <i class="fa-solid fa-heart"></i> Prakash Thakur</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxn04f6KmWfS20O0W7TwZVLattbq0kRoV8FYlUyUKyKmvoEozI2wMxlifneR6CdEF3M/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
